@@ -1,6 +1,6 @@
 counter = 0
 
-IO.foreach("input.txt") do |mass|
+IO.foreach("input1.txt") do |mass|
   fuel = (mass.to_i / 3) - 2
   while fuel > 0 do
     counter += fuel
